@@ -1,0 +1,36 @@
+/* style.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  direction: rtl;
+}
+
+.hero {
+  background: linear-gradient(to left, #1d1f27, #343a40);
+  padding: 80px 20px;
+}
+
+.hero h1, .hero p {
+  color: white;
+}
+
+.course-card {
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.course-card:hover {
+  transform: scale(1.05);
+}
+
+.section-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #1d1f27;
+}
+
+.btn-dark:hover {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
